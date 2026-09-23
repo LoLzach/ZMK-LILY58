@@ -84,28 +84,29 @@
          * Layer 2 — твой скрин 3
          */
         raise_layer {
-            bindings = <
-                &trans        &trans       &trans       &trans       &trans       &trans
-                &trans        &trans       &trans       &trans       &kp PSCRN    &kp ASTRK
+			bindings = <
+				&trans        &trans       &trans       &trans       &trans       &trans
+				&trans        &trans       &trans       &trans       &kp PSCRN    &kp KP_MULTIPLY
 
-                &kp CAPS      &trans       &trans       &trans       &trans       &trans
-                &kp HOME      &kp UP       &kp END      &trans       &trans       &trans
+				&kp CAPS      &trans       &trans       &trans       &trans       &trans
+				&kp HOME      &kp UP       &kp END      &trans       &trans       &trans
 
-                &kp LCTRL     &trans       &trans       &trans       &trans       &trans
-                &kp LEFT      &kp DOWN     &kp RIGHT    &kp C_PP      &trans       &trans
+				&kp LCTRL     &trans       &trans       &trans       &trans       &trans
+				&kp LEFT      &kp DOWN     &kp RIGHT    &kp C_PP      &trans       &trans
 
-                &kp LSHFT     &trans       &trans       &trans       &trans       &trans
-                &kp DEL       &trans       &trans       &trans       &kp C_PREV   &kp C_NEXT
+				&kp LSHFT     &trans       &trans       &trans       &trans       &trans
+				&kp DEL       &trans       &trans       &trans       &kp C_PREV   &kp C_NEXT
 
-                &trans        &trans       &trans       &trans
-                &trans        &trans       &trans       &trans
-            >;
+				&trans        &trans       &trans       &trans
+				&trans        &trans       &trans       &trans
+			>;
+
 			sensor-bindings = <
                 &inc_dec_kp C_VOL_UP C_VOL_DN
                 &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
-        };
-
+		};
+		
         /*
          * Layer 3 — ОРИГИНАЛЬНЫЙ ADJUST
          */
@@ -129,7 +130,10 @@
                 &trans            &trans          &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <
+                &inc_dec_kp C_VOL_UP C_VOL_DN
+                &inc_dec_kp C_VOL_UP C_VOL_DN
+            >;
         };
 
         /*
