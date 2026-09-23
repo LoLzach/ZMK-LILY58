@@ -91,20 +91,20 @@
 			display-name = "second";
 
 			bindings = <
-				&trans        &trans       &trans       &trans       &trans       &trans
-				&trans        &trans       &trans       &trans       &kp PSCRN    &kp KP_MULTIPLY
+				&trans        &trans        &trans        &trans        &trans        &trans
+				&trans        &trans        &trans        &trans        &kp PSCRN      &kp KP_MULTIPLY
 
-				&kp CAPS      &trans       &trans       &trans       &trans       &trans
-				&trans        &kp HOME     &kp UP       &kp END      &trans       &trans
+				&kp CAPS      &trans        &trans        &trans        &trans        &trans
+				&trans        &kp HOME      &kp UP        &kp END       &trans        &trans
 
-				&kp LCTRL     &trans       &trans       &trans       &trans       &trans
-				&trans        &kp LEFT     &kp DOWN     &kp RIGHT    &kp C_PP      &trans
+				&kp LCTRL     &trans        &trans        &trans        &trans        &trans
+				&trans        &kp LEFT      &kp DOWN      &kp RIGHT      &kp C_PP      &trans
 
-				&kp LSHFT     &trans       &trans       &trans       &trans       &trans
-				&kp DEL       &trans       &trans       &trans       &kp C_PREV   &kp C_NEXT
+				&kp LSHFT     &trans        &trans        &trans        &trans        &trans
+				&kp DEL       &trans        &trans        &trans        &trans        &trans        &kp C_PREV    &kp C_NEXT
 
-				&trans        &trans       &trans       &trans
-				&trans        &trans       &trans       &trans
+				&trans        &trans        &trans        &trans
+				&trans        &trans        &trans        &trans
 			>;
 
 			sensor-bindings = <
