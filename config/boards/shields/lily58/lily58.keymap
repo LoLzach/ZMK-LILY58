@@ -45,7 +45,7 @@
                 &kp FSLH      &kp RSHFT
 
                 &kp LGUI      &mo 1       &kp LALT    &kp SPACE
-                &kp RET       &kp BSPC    &mo 1       &kp RALT
+                &kp RET       &kp BSPC    &mo 2       &kp RALT
             >;
 
             sensor-bindings = <
