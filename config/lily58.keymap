@@ -98,7 +98,7 @@
 				&trans        &kp HOME      &kp UP        &kp END       &trans        &kp PG_UP
 
 				&kp LCTRL     &trans        &trans        &trans        &trans        &trans
-				&trans        &kp LEFT      &kp DOWN      &kp RIGHT      &kp C_PP      &PG_DN
+				&trans        &kp LEFT      &kp DOWN      &kp RIGHT      &kp C_PP      &kp PG_DN
 
 				&kp LSHFT     &trans        &trans        &trans        &trans        &trans
 				&kp DEL       &trans        &trans        &trans        &trans        &trans        &kp C_PREV    &kp C_NEXT
